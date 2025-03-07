@@ -1,6 +1,9 @@
 # Terminal-Helper
 An AI tool that you can use inside the terminal to get help with commands and errors
 
+## Demo
+
+https://github.com/user-attachments/assets/593f412f-968e-4eda-8cdb-19e96acfc611
 
 ## Installation & Setup
 1. Clone this repository 
@@ -19,25 +22,12 @@ pip install -r requirements.txt
 ```bash
 chmod +x thelper
 ```
-4. Move the folder to a folder where you won't accidentally remove it. (Could be Documents or Applications folder)
-
 ## Add thelper to path
 ### For Linux and Mac
 
-1. Check which shell you're using
+1. move it do a directory in your $PATH
 ```bash
-echo $SHELL
-```
-2. Add folder to path
-```bash
-nano ~/.zshrc  # For Zsh
-# or
-nano ~/.bash_profile  # For Bash
-
-```
-3. Add this to your file
-```bash
-export PATH="$HOME/path_to/your_project_folder:$PATH"
+sudo mv thelper /usr/local/bin/
 ```
 
 ### For Windows
